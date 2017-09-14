@@ -39,18 +39,6 @@ function prepAccessToken(appId, appSecret) {
     return `${appId}|${appSecret}`.toString();
 }
 exports.prepAccessToken = prepAccessToken;
-/** Check if file is already there */
-function alreadyDownloaded(rootDir) {
-    return __awaiter(this, void 0, void 0, function* () {
-        const docs = yield fs.readdirAsync(rootDir);
-        function check(postId) {
-            docs.forEach((doc) => __awaiter(this, void 0, void 0, function* () {
-                const docContent = yield fs.readJSONAsync(doc);
-            }));
-        }
-    });
-}
-exports.alreadyDownloaded = alreadyDownloaded;
 /** Check if file is not already downloaded and save them */
 function notAlreadyThere(rootDir, page) {
     const files = fs.readdirSync(rootDir);

@@ -28,17 +28,6 @@ export function prepAccessToken(appId: string, appSecret: string): string {
   return `${appId}|${appSecret}`.toString()
 }
 
-/** Check if file is already there */
-export async function alreadyDownloaded(rootDir: string) {
-  const docs = await fs.readdirAsync(rootDir)
-  function check(postId: string) {
-    docs.forEach(async doc => {
-      const docContent = await fs.readJSONAsync(doc)
-    })
-  }
-}
-
-
 /** Check if file is not already downloaded and save them */
 export function notAlreadyThere(rootDir: string, page: string): Function {
   const files = fs.readdirSync(rootDir)
