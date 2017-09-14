@@ -1,0 +1,7 @@
+{
+  "appId": "YOUR_APP_ID",
+  "appSecret": "YOUR_APP_SECRET",
+  "rootDir": "c:/work/fb-scraper",
+  "daysBack": 10,
+  "pages": [ "nytimes" ]
+}

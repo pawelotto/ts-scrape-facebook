@@ -1,0 +1,14 @@
+{
+  "version": "0.1.0",
+  "tasks":[
+    {
+      "taskName": "tsc",
+      "command": "tsc",
+      "isShellCommand": true,
+      "args": ["-w", "-p", "."],
+      "showOutput": "always",
+      "isBackground": true,
+      "problemMatcher": "$tsc-watch"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "t-scrape-facebook",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Scrape Facebook posts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://pawelotto@bitbucket.org/media-press/t-scrape-facebook.git"
+  },
+  "keywords": [
+    "facebook",
+    "scraper",
+    "typescript"
+  ],
+  "author": "Paweł Otto",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/media-press/t-scrape-facebook#readme",
+  "devDependencies": {
+    "@types/assert": "0.0.31",
+    "@types/config": "0.0.32",
+    "@types/fs-extra-promise": "^1.0.2",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^8.0.27",
+    "@types/request": "^2.0.3",
+    "@types/request-promise": "^4.1.37",
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "assert": "^1.4.1",
+    "config": "^1.26.2",
+    "fs-extra-promise": "^1.0.1",
+    "moment": "^2.18.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "url": "^0.11.0"
+  }
+}
