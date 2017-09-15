@@ -1,5 +1,5 @@
 {
-  "name": "t-scrape-facebook",
+  "name": "ts-scrape-facebook",
   "private": true,
   "version": "1.0.0",
   "description": "Scrape Facebook posts",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://pawelotto@bitbucket.org/media-press/t-scrape-facebook.git"
+    "url": "git+https://github.com/pawelotto/ts-scrape-facebook.git"
   },
   "keywords": [
     "facebook",
@@ -21,7 +21,7 @@
   ],
   "author": "Paweł Otto",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/media-press/t-scrape-facebook#readme",
+  "homepage": "https://github.com/pawelotto/ts-scrape-facebook#readme",
   "devDependencies": {
     "@types/assert": "0.0.31",
     "@types/config": "0.0.32",
